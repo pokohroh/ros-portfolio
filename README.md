@@ -1,14 +1,13 @@
-# ros-portfolio GROUP 7
-
-# Group 7 – ROS E-Portfolio
+# ROS-portfolio GROUP 7
+PLEASE FEEL FREE TO EDIT , THIS ONE I JUST ADD INITIALLY
 
 Welcome to our learning portfolio, where we demonstrate our initial competencies in ROS (Robot Operating System). This project is part of our journey to understand robotic systems through hands-on tutorials and beginner simulations.
 
----
+
 
 ## For General Audience
 
-We are a group of students learning how to control robots using software. We used a simulated turtle robot to explore how robots move and respond to commands. Think of it like learning how to talk to a robot and make it do simple things like move forward, turn, or draw shapes — all using code!
+We are a group of students learning how to control robots using software. We used a simulated turtle robot to explore how robots move and respond to commands. Think of it like learning how to talk to a robot and make it do simple things like move forward, turn, or draw shapes, all using code!
 
 ---
 
