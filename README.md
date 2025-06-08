@@ -32,6 +32,4 @@ Our working files, notes, and screenshots are organized in relevant folders.
 
 **Keywords:** ROS, Robot Operating System, ROS Noetic, Ubuntu 20.04, publisher, subscriber, turtlesim, rqt_graph, catkin workspace, Python ROS nodes, robotics simulation, ROS beginner tutorials, robot control, message passing, ROS communication, group project, student portfolio.
 
-This metadata helps make the content machine-readable and searchable.
-
 ---
