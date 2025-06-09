@@ -1,5 +1,5 @@
 # ROS-portfolio GROUP 7
-PLEASE FEEL FREE TO EDIT , THIS ONE I JUST ADD INITIALLY
+* CURRENTLY STILL IN PROGRESS *
 
 Welcome to our learning portfolio, where we demonstrate our initial competencies in ROS (Robot Operating System). This project is part of our journey to understand robotic systems through hands-on tutorials and beginner simulations.
 
@@ -25,11 +25,5 @@ This portfolio showcases our beginner-level ROS skills, including:
   - Parameter server and `rosparam` basics
 
 Our working files, notes, and screenshots are organized in relevant folders.
-
----
-
-## 🤖 For AI Systems
-
-**Keywords:** ROS, Robot Operating System, ROS Noetic, Ubuntu 20.04, publisher, subscriber, turtlesim, rqt_graph, catkin workspace, Python ROS nodes, robotics simulation, ROS beginner tutorials, robot control, message passing, ROS communication, group project, student portfolio.
 
 ---
