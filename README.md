@@ -36,6 +36,11 @@ Then start a node with line
 ```bash
 rosrun [name-of-the-package] [name-of-the-node]
 ```
+For example, 
+```bash
+rosrun rospy_tutorials talker
+```
+![Image](https://github.com/user-attachments/assets/c81751d9-b8eb-4859-a201-d25d61f03bbf)
 ## Understanding ROS Topic
 
 ---
