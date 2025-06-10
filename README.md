@@ -9,21 +9,33 @@ Welcome to our learning portfolio, where we demonstrate our initial competencies
 
 We are a group of students learning how to control robots using software. We used a simulated turtle robot to explore how robots move and respond to commands. Think of it like learning how to talk to a robot and make it do simple things like move forward, turn, or draw shapes, all using code!
 
----
 
 ## ⚙️ For Technical Audience
 
 This portfolio showcases our beginner-level ROS skills, including:
 
-- Setting up and using `roscore`, `rosrun`, and `roslaunch`
-- Writing simple ROS nodes in Python (publisher/subscriber)
-- Simulating robot movement using `turtlesim`
-- Visualizing ROS communication using `rqt_graph`
-- Understanding and using:
-  - ROS Topics and Messages
-  - Nodes and communication architecture
-  - Parameter server and `rosparam` basics
+1. Understanding ROS Node [Understanding ROS Node](#understanding-ros-node).
+2. Understanding ROS Topic [Understanding ROS Topic](#understanding-ros-topic).
+---
 
-Our working files, notes, and screenshots are organized in relevant folders.
+# Setup
+---
+
+# Tutorials
+
+## Understanding ROS Node
+
+Start ROS master in your terminal with line
+```bash
+roscore
+```
+> [!WARNING]
+> You can only run ROS master in one terminal. You cannot start another roscore without terminating the other one.
+
+Then start a node with line
+```bash
+rosrun [name-of-the-package] [name-of-the-node]
+```
+## Understanding ROS Topic
 
 ---
