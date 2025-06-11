@@ -314,7 +314,9 @@ $ cd ../..
 $ catkin build
 $ cd -
 ```
- - Any .msg file in the msg directory will generate code for use in all supported languages. The C++ message header file will be generated in ~/catkin_ws/devel/include/beginner_tutorials/. The Python script will be created in ~/catkin_ws/devel/lib/python2.7/dist-packages/beginner_tutorials/msg. The lisp file appears in ~/catkin_ws/devel/share/common-lisp/ros/beginner_tutorials/msg/.
+ - Any .msg file in the msg directory will generate code for use in all supported languages.
+ - The C++ message header file will be generated in **~/catkin_ws/devel/include/beginner_tutorials/.** The Python script will be created in **~/catkin_ws/devel/lib/python2.7/dist-packages/beginner_tutorials/msg.**
+ - The lisp file appears in **~/catkin_ws/devel/share/common-lisp/ros/beginner_tutorials/msg/.**
  - Similarly, any .srv files in the srv directory will have generated code in supported languages. For C++, this will generate header files in the same directory as the message header files. For Python and Lisp, there will be an 'srv' folder beside the 'msg' folders.
 
 
