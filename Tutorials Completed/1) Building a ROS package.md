@@ -1,8 +1,7 @@
-# ROS Tutorial: Building Packages
+# ROS Tutorial: Create a catkin workspace
 
 # Objective
-To build a ROS package using the `catkin_make` build system and understand how ROS dependencies are resolved during the build process.
-
+To create a workspace for catkin which packages can be built on
 
 # Hardware Required
 - None
