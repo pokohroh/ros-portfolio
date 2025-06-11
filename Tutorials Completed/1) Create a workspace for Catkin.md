@@ -1,23 +1,41 @@
 # ROS Tutorial: Create a workspace for catkin
 
-# Objective
+## Objective
 To create a workspace for catkin which packages can be built on
 
-# Hardware Required
-- None
+## Procedure
 
-
-# Software Required
-- Ubuntu 18.04
-- ROS Melodic
-- A properly initialized `catkin` workspace
-
-
-# Procedure
-
- 1. Create a Catkin Workspace (if not already created)
+1. Make a catkin_ws directory
 
 ```bash
-mkdir -p ~/catkin_ws/src
-cd ~/catkin_ws/
+mkdir catkin_ws
+```
+
+2. Make a src directory under catkin_ws
+
+```bash
+cd catkin_ws/
+mkdir src
+```
+
+3. Initialise catkin workspace
+
+```bash
 catkin_make
+```
+
+> [!WARNING]
+> Make sure to initialise catkin workspace under catkin_ws and not under catkin_ws/src.
+
+4. Source the Workspace Environment
+```bash
+cd
+source ~/catkin_ws/devel/setup.bash
+```
+
+5. To make this permanent
+
+```bash
+echo "source ~/catkin_ws/devel/setup.bash" >> ~/.bashrc
+source ~/.bashrc
+```
