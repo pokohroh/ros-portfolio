@@ -13,7 +13,7 @@ We are a group of students learning how to control robots by giving them instruc
 
 This portfolio showcases our ROS competency learnt through tutorials, including:
 
-1. [Create a Catkin workspace](https://github.com/pokohroh/ros-portfolio/blob/9fbb3c7dc833d98d6ee48b9994418f5115f0e152/Tutorials%20Completed/1%29%20Create%20a%20worksapce%20for%20Catkin.md)
+1. [Create a workspace for Catkin](https://github.com/pokohroh/ros-portfolio/blob/fb07ac62e35e6dcb2ab9a50672c476e3e82420c1/Tutorials%20Completed/1%29%20Create%20a%20workspace%20for%20Catkin.md)
 2. [Create a ROS package](https://github.com/pokohroh/ros-portfolio/blob/9fbb3c7dc833d98d6ee48b9994418f5115f0e152/Tutorials%20Completed/2%29%20Creating%20a%20ROS%20package.md)
 3. [Understanding Nodes](https://github.com/pokohroh/ros-portfolio/blob/9fbb3c7dc833d98d6ee48b9994418f5115f0e152/Tutorials%20Completed/3%29%20Understanding%20)
 4. [Understanding Topics](https://github.com/pokohroh/ros-portfolio/blob/9fbb3c7dc833d98d6ee48b9994418f5115f0e152/Tutorials%20Completed/4%29%20Understanding%20ROS%20topics.md)
