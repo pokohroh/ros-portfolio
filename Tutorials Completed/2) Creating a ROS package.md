@@ -9,7 +9,7 @@ This tutorial will show how to create a new ROS package using the `catkin` build
 
 
 # Software Required
-- Ubuntu 20.04
+- Ubuntu 18.04
 - ROS Noetic
 - Terminal
 
