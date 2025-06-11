@@ -1,25 +1,18 @@
 # ROS Tutorial: Using rqt_console and roslaunch
 
-# Objective
+## Objective
 - Introduce using `rqt_console` and `rqt_logger_level` for debugging and `roslaunch` for starting many nodes as once.
 
-# Hardware Required
-- None
+## Procedure
 
-# Software Required
-- Ubuntu 18.04
-- ROS Melodic
-- Terminal
-- Properly built and sourced catkin workspace
-
-# 1. Prerequisites rqt and turtlesim package
+1. Prerequisites rqt and turtlesim package
 The tutorial uses both the rqt and turtlesim packages. To do this tutorial, please install both packages:
 
 `sudo apt-get install ros-<distro>-rqt ros-<distro>-rqt-common-plugins ros-<distro>-turtlesim`
 
 Replace <distro> with the name of your ROS distribution.
 
-# 2. Using rqt_console and rqt_logger_level
+2. Using rqt_console and rqt_logger_level
 rqt_console attaches to ROS's logging framework to display output from nodes. rqt_logger_level allows us to change the verbosity level (DEBUG, WARN, INFO, and ERROR) of nodes as they run.
 
 Now let's look at the turtlesim output in rqt_console and switch logger levels in rqt_logger_level as we use turtlesim. Before we start the turtlesim, in two new terminals start rqt_console and rqt_logger_level:
@@ -54,7 +47,7 @@ For ROS Hydro and later,
 `rostopic pub /turtle1/cmd_vel geometry_msgs/Twist -r 1 -- '{linear: {x: 2.0, y: 0.0, z: 0.0}, angular: {x: 0.0,y: 0.0,z: 0.0}}'`
 
 
-# 3. Quick Note about logger levels
+3. Quick Note about logger levels
 Logging levels are prioritized in the following order:
 ```
 Fatal
@@ -67,7 +60,7 @@ Fatal has the highest priority and Debug has the lowest. By setting the logger l
 
 Ctrl-C the turtlesim and use roslaunch to bring up multiple turtlesim nodes and a mimicking node to cause one turtlesim to mimic another:
 
-# 4. Using roslaunch
+4. Using roslaunch
 roslaunch starts nodes as defined in a launch file.
 
 - Usage:
@@ -92,7 +85,7 @@ $ cd launch
 ```
 **NOTE:** The directory to store launch files doesn't necessarily have to be named launch. In fact you don't even need to store them in a directory. roslaunch command automatically looks into the passed package and detects available launch files. However, this is considered good practice.
 
-# 5. The Launch File
+5. The Launch File
 Now let's create a launch file called `turtlemimic.launch` and paste the following:
 
 ```
@@ -113,7 +106,7 @@ Now let's create a launch file called `turtlemimic.launch` and paste the followi
 
 </launch>
 ```
-# 6. The Launch File Explained
+6. The Launch File Explained
 Now, let's break the launch xml down.
 
 Toggle line numbers
@@ -147,7 +140,7 @@ Here we start the mimic node with the topics input and output renamed to turtles
 This closes the xml tag for the launch file.
 
 
-# 7. Roslaunching
+7. Roslaunching
 Now let's roslaunch the launch file:
 
 `roslaunch beginner_tutorials turtlemimic.launch`
