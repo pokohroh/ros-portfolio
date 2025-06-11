@@ -1,4 +1,4 @@
-# ROS Tutorial: Understanding Services and Parameters
+# ROS Tutorial: Using rosed to edit files
 
 # Objective
 - Introduce using `rosed` to make editing easier in ROS workspaces.
