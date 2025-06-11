@@ -1,4 +1,4 @@
-# ROS Tutorial: Understanding Services and Parameters
+# ROS Tutorial: Using rqt_console and roslaunch
 
 # Objective
 - Introduce using `rqt_console` and `rqt_logger_level` for debugging and `roslaunch` for starting many nodes as once.
