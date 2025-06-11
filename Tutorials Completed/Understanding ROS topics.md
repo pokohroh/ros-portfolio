@@ -7,8 +7,8 @@
 - None
 
 # Software Required
-- Ubuntu 20.04
-- ROS Noetic
+- Ubuntu 18.04
+- ROS Melodic
 - Terminal
 - Properly built and sourced catkin workspace
 
