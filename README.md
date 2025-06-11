@@ -13,7 +13,7 @@ We are a group of students learning how to control robots using software. We use
 
 This portfolio showcases our beginner-level ROS skills, including:
 
-1. Building a ROS package [Building a ROS package](https://github.com/pokohroh/ros-portfolio/blob/b1d926216752347057fd42c3a662f23ac102c37e/Tutorials%20Completed/2)%20Creating%20a%20ROS%20package.md)
+1. [Creating a ROS package](https://github.com/pokohroh/ros-portfolio/blob/b1d926216752347057fd42c3a662f23ac102c37e/Tutorials%20Completed/1%29%20Building%20a%20ROS%20package.md)
 2. Creating a ROS package [Creating a ROS package](https://github.com/pokohroh/ros-portfolio/blob/b1d926216752347057fd42c3a662f23ac102c37e/Tutorials%20Completed/2%20Creating%20a%20ROS%20package.md)
 ---
 
