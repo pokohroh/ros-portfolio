@@ -1,20 +1,10 @@
 # ROS Tutorial: Creating a ROS msg and srv
 
-# Objective
+## Objective
 - Covers how to create aand build msg and srv files.
 - Utilizing `rosmsg`, `rossrv`, `roscp`
 
-# Hardware Required
-- None
-
-# Software Required
-- Ubuntu 18.04
-- ROS Melodic
-- Terminal
-- Properly built and sourced catkin workspace
-
-
-# 1. Introduction to msg and srv
+1. Introduction to msg and srv
 - `msg`: msg files are simple text files that describe the fields of a ROS message. They are used to generate source code for messages in different languages.
 
 - `srv`: an srv file describes a service. It is composed of two parts: a request and a response.
@@ -54,7 +44,7 @@ int64 Sum
 In the above example, A and B are the request, and Sum is the response.
 
 
-# 2. Using msg
+2. Using msg
 
 **Creating a msg**
 
@@ -153,8 +143,7 @@ In earlier versions, you may just need to uncomment one line:
 
 Now you're ready to generate source files from your msg definition. If you want to do so right now, skip next sections to Common step for msg and srv.
 
-
-# 3. Using rosmsg
+3. Using rosmsg
 That's all you need to do to create a msg. Let's make sure that ROS can see it using the rosmsg show command.
 
 Usage:
@@ -183,7 +172,7 @@ You will see:
 [beginner_tutorials/Num]:
 int64 num
 ```
-# 4. Using srv
+4. Using srv
 
 Creating a srv
 Let's use the package we just created to create a srv:
@@ -247,7 +236,7 @@ add_service_files(
 ```
 
 
-# 5. Using rossrv
+5. Using rossrv
 
 Usage:
 `rossrv show <service type>`
@@ -277,7 +266,7 @@ int64 sum
 ```
 Here, two services are shown. The first is the one you just created in the beginner_tutorials package, and the second is the pre-existing one from the rospy_tutorials package.
 
-# 6. Common step for msg and srv
+6. Common step for msg and srv
 
 Unless you have already done this in the previous steps, change in CMakeLists.txt. :
 
@@ -320,7 +309,7 @@ $ cd -
  - Similarly, any .srv files in the srv directory will have generated code in supported languages. For C++, this will generate header files in the same directory as the message header files. For Python and Lisp, there will be an 'srv' folder beside the 'msg' folders.
 
 
-# 7. Getting Help
+7. Getting Help
  It can be difficult to keep track of what arguments each command requires. Luckily, most ROS tools provide their own help.
 
 Try:
