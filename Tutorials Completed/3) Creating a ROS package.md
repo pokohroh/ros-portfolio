@@ -1,9 +1,9 @@
 # ROS Tutorial: Creating a ROS Package
 
-# Objective
+## Objective
 This tutorial will show how to create a new ROS package using the `catkin` build system.
 
-# Procedure
+## Procedure
 
 1. Navigate to Your Catkin Workspace
 ```bash
