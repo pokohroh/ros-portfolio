@@ -1,18 +1,9 @@
 # ROS Tutorial: Understanding Topics
 
-# Objective
+## Objective
 - To understand what a ROS Node is, how nodes communicate within the ROS computational graph, and how to view and manage them using ROS command-line tools.
 
-# Hardware Required
-- None
-
-# Software Required
-- Ubuntu 18.04
-- ROS Melodic
-- Terminal
-- Properly built and sourced catkin workspace
-
-# Procedure
+## Procedure
 1. Launch the ROS Master
 ```bash
 roscore
