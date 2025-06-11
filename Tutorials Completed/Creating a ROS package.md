@@ -1,7 +1,7 @@
 # ROS Tutorial: Creating a Package
 
 # Objective
-The goal of this tutorial is to learn how to create a new ROS package using the `catkin` build system.
+This tutorial will show how to create a new ROS package using the `catkin` build system.
 
 
 # Hardware Required
