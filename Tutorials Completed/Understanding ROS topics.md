@@ -1,4 +1,4 @@
-# ROS Tutorial: Understanding Nodes
+# ROS Tutorial: Understanding Topics
 
 # Objective
 - To understand what a ROS Node is, how nodes communicate within the ROS computational graph, and how to view and manage them using ROS command-line tools.
