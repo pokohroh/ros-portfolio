@@ -1,4 +1,4 @@
-# ROS Tutorial: Writing a ROS Subscriber 
+d# ROS Tutorial: Writing a ROS Subscriber 
 
 ## Objective
 To familiarise with how to write your own ROS subscriber with python.
@@ -30,7 +30,7 @@ if __name__ == '__main__':
 
 4. Setup a subscriber
 ```python
-  pub = rospy.Subscriber("exact_name_of_the_topic, data_class, callback=name_of_function)
+  sub = rospy.Subscriber("exact_name_of_the_topic, data_class, callback=name_of_function)
 ```
 Callback calls a function that we will define to process the message received from the topic
 
@@ -68,7 +68,7 @@ from turtlesim.msg import Pose
 
 if __name__ == '__main__':
   rospy.init_node("turtle_pose_subscriber")
-  pub = rospy.Subscriber("/turtle1/pose", Pose, callback=pose_callback)
+  sub = rospy.Subscriber("/turtle1/pose", Pose, callback=pose_callback)
   rospy.loginfo("Node has been started")
 
 ```
@@ -97,7 +97,7 @@ def pose_callback(msg: Pose):
 
 if __name__ == '__main__':
   rospy.init_node("turtle_pose_subscriber")
-  pub = rospy.Subscriber("/turtle1/pose", Pose, callback=pose_callback)
+  sub = rospy.Subscriber("/turtle1/pose", Pose, callback=pose_callback)
   rospy.loginfo("Node has been started")
 
   rospy.spin()
