@@ -15,7 +15,8 @@ This portfolio showcases our ROS competency learnt through tutorials, including:
 
 1. [Understanding ROS Nodes](https://github.com/pokohroh/ros-portfolio/blob/main/Tutorials%20Completed/1%29%20Understanding%20ROS%20nodes.md)
 2. [Creating a Catkin Workspace](https://github.com/pokohroh/ros-portfolio/blob/main/Tutorials%20Completed/2%29%20Creating%20a%20workspace%20for%20Catkin.md)
-
-
+3. [Creating a ROS Package]
+4. [Writing a ROS Node]
+5. [Understanding ROS Topics.md]
 ---
 
