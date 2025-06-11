@@ -1,81 +1,54 @@
-# ROS Tutorial: Creating a Package
+# ROS Tutorial: Creating a ROS Package
 
 # Objective
 This tutorial will show how to create a new ROS package using the `catkin` build system.
 
-
-# Hardware Required
-- None (tutorial is entirely software-based)
-
-
-# Software Required
-- Ubuntu 18.04
-- ROS Noetic
-- Terminal
-
-
 # Procedure
 
 1. Navigate to Your Catkin Workspace
-2. Create a package
-3. Check if a package was created
-4. Go back to Catkin workspace root
-5. Build the workspace
-6. Source the workspace environment
-
- 1. Navigate to Your Catkin Workspace
 ```bash
 
-cd ~/catkin_ws/src
-```
-If your workspace doesn't exist yet, create it:
-
-```bash
-mkdir -p ~/catkin_ws/src
-cd ~/catkin_ws/
-catkin_make
+cd catkin_ws/src
 ```
 
 2. Create a New Package
+```bash
+catkin_create_pkg [name_of_the_package] [name_of_libraries]
+```
+For this tutorial, name of the package will be ***my_robot_controller***, and libraries that would be used are ***rospy*** and ***turtlesim***.
+
+***rospy*** is a python libraty that allows python code to get access to ros functionalities.
 
 ```bash
-catkin_create_pkg beginner_tutorials std_msgs rospy roscpp
+catkin_create_pkg my_robot_controller rospy turtlesim
 ```
 
-This creates a new folder beginner_tutorials with the required files:
 
-/package.xml
-/CMakeLists.txt
-/And src/ if needed
+This creates a new folder my_robot_controller with the required files:
 
-3. Check That the Package Was Created
+/package.xml<br/>
+/CMakeLists.txt<br/>
+/src<br/>
 
-List the contents of the current directory to verify
-```bash
-ls
-```
-You should see your package listed (beginner_tutorials).
 
-4. Go Back to the Root of Your Workspace
+3. Go Back to the Root of Your Workspace and build catkin workspace
 
 ```bash
-cd ~/catkin_ws
-```
-5. Build the Workspace
-
-```bash
+cd ..
 catkin_make
 ```
 
-6. Source the Workspace Environment
-```bash
-
-source devel/setup.bash
-```
-
-To make this permanent
+4. Under catkin_ws/src, open VScode Editor
 
 ```bash
-echo "source ~/catkin_ws/devel/setup.bash" >> ~/.bashrc
-source ~/.bashrc
+cd catkin_ws/src/
+code
 ```
+
+If VScode is not installed, run
+
+```bash
+sudo snap install code --clasic
+```
+
+Now, catkin workspace for our ros package has been setup, and we are ready to code.
