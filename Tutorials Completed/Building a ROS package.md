@@ -9,8 +9,8 @@ To build a ROS package using the `catkin_make` build system and understand how R
 
 
 # Software Required
-- Ubuntu 20.04
-- ROS Noetic
+- Ubuntu 18.04
+- ROS Melodic
 - A properly initialized `catkin` workspace
 
 
