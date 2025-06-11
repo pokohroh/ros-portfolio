@@ -11,7 +11,7 @@ To understand what a **ROS Node** is, how nodes communicate within the ROS compu
 ---
 
 # Software Required
-- Ubuntu 20.04
+- Ubuntu 18.04
 - ROS Noetic
 - Terminal
 - Properly built and sourced catkin workspace
