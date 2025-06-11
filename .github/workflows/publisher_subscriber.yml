@@ -1,0 +1,43 @@
+name: ROS Melodic Python CI
+
+on: [push, pull_request]
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-18.04
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v3
+
+    - name: Install ROS Melodic
+      run: |
+        sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu bionic main" > /etc/apt/sources.list.d/ros-latest.list'
+        sudo apt-key adv --keyserver 'hkp://keyserver.ubuntu.com:80' --recv-key C1CF6E31E6BADE8868B172B4F42ED6FBAB17C654
+        sudo apt update
+        sudo apt install -y ros-melodic-desktop-full python-rosdep python-catkin-tools python-roslaunch
+        sudo rosdep init || true
+        rosdep update
+
+    - name: Build the workspace
+      run: |
+        source /opt/ros/melodic/setup.bash
+        mkdir -p ~/catkin_ws/src
+        cp -r ./src/* ~/catkin_ws/src/
+        cd ~/catkin_ws
+        rosdep install --from-paths src --ignore-src -r -y
+        catkin_make
+
+    - name: Source workspace
+      run: echo "source ~/catkin_ws/devel/setup.bash" >> $GITHUB_ENV
+
+    - name: Run ROS Python Nodes
+      shell: bash -l {0}
+      run: |
+        source /opt/ros/melodic/setup.bash
+        source ~/catkin_ws/devel/setup.bash
+        roscore &
+        sleep 5
+        rosrun beginner_tutorials talker.py &
+        sleep 2
+        rosrun beginner_tutorials listener.py
