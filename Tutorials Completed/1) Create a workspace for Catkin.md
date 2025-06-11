@@ -1,4 +1,4 @@
-# ROS Tutorial: Create a catkin workspace
+# ROS Tutorial: Create a workspace for catkin
 
 # Objective
 To create a workspace for catkin which packages can be built on
