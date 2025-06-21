@@ -8,8 +8,9 @@ Welcome to our learning portfolio, where we demonstrate our initial competencies
 
 We are a group of students learning how to control robots by giving them instructions through software. In this case, we used a simulated turtle robot to explore how robots move and respond to commands.
 
-
-## For Technical Audience
+## System Requirement
+- Ubuntu 20.04
+- ROS Noetic
 
 This portfolio showcases our ROS competency learnt through tutorials, including:
 
