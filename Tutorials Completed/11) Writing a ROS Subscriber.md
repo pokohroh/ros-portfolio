@@ -1,4 +1,4 @@
-d# ROS Tutorial: Writing a ROS Subscriber 
+# ROS Tutorial: Writing a ROS Subscriber 
 
 ## Objective
 To familiarise with how to write your own ROS subscriber with python.
