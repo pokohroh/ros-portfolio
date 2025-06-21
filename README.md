@@ -21,12 +21,12 @@ This portfolio showcases our ROS competency learnt through tutorials, including:
 5. [Running Turtlesim Node](https://github.com/pokohroh/ros-portfolio/blob/main/Tutorials%20Completed/5%29%20Running%20Turtlesim%20Node.md)
 6. [Understanding ROS Topics](https://github.com/pokohroh/ros-portfolio/blob/main/Tutorials%20Completed/6%29%20Understanding%20ROS%20Topics.md)
 7. [Using rqt_conosle and roslaunch](https://github.com/pokohroh/ros-portfolio/blob/main/Tutorials%20Completed/7%29%20Using%20rqt_console%20and%20roslaunch.md)
-8. [Using rosed to edit files](https://github.com/pokohroh/ros-portfolio/blob/main/Tutorials%20Completed/7%29%20Using%20rosed%20to%20edit%20files.md)
-9. [Creating a ROS msg and srv](https://github.com/pokohroh/ros-portfolio/blob/main/Tutorials%20Completed/8%29%20Creating%20a%20ROS%20msg%20and%20srv.md)
-10. [Writing a ROS Publisher](https://github.com/pokohroh/ros-portfolio/blob/main/Tutorials%20Completed/9%29%20Writing%20a%20ROS%20Publisher.md)
-11. [Writing a ROS Subscriber](https://github.com/pokohroh/ros-portfolio/blob/main/Tutorials%20Completed/10%29%20Writing%20a%20ROS%20Subscriber.md)
-12. [Combining Publisher and Subscriber](https://github.com/pokohroh/ros-portfolio/blob/main/Tutorials%20Completed/11%29%20Combining%20Publisher%20and%20Subscriber.md)
-13. [Understanding Services and Parameters](https://github.com/pokohroh/ros-portfolio/blob/main/Tutorials%20Completed/12%29%20Understanding%20ROS%20Services%20and%20Commands.md)
+8. [Using rosed to edit files](https://github.com/pokohroh/ros-portfolio/blob/main/Tutorials%20Completed/8%29%20Using%20rosed%20to%20edit%20files.md)
+9. [Creating a ROS msg and srv](https://github.com/pokohroh/ros-portfolio/blob/main/Tutorials%20Completed/9%29%20Creating%20a%20ROS%20msg%20and%20srv.md)
+10. [Writing a ROS Publisher](https://github.com/pokohroh/ros-portfolio/blob/main/Tutorials%20Completed/10%29%20Writing%20a%20ROS%20Publisher.md)
+11. [Writing a ROS Subscriber](https://github.com/pokohroh/ros-portfolio/blob/main/Tutorials%20Completed/11%29%20Writing%20a%20ROS%20Subscriber.md)
+12. [Combining Publisher and Subscriber](https://github.com/pokohroh/ros-portfolio/blob/main/Tutorials%20Completed/12%29%20Combining%20Publisher%20and%20Subscriber.md)
+13. [Understanding Services and Parameters](https://github.com/pokohroh/ros-portfolio/blob/main/Tutorials%20Completed/13%29%20Understanding%20ROS%20Service%20and%20Parameters.md)
 14. [Writing a ROS Service Client](https://github.com/pokohroh/ros-portfolio/blob/main/Tutorials%20Completed/14%29%20Writing%20a%20ROS%20Service%20Client.md)
 ---
 
