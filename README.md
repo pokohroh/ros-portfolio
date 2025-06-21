@@ -19,7 +19,7 @@ This portfolio showcases our ROS competency learnt through tutorials, including:
 4. [Writing a ROS Node](https://github.com/pokohroh/ros-portfolio/blob/main/Tutorials%20Completed/4%29%20Writing%20a%20ROS%20Node%20with%20Python.md)
 5. [Understanding ROS Nodes](https://github.com/pokohroh/ros-portfolio/blob/main/Tutorials%20Completed/5%29%20Understanding%20ROS%20Nodes.md)
 6. [Understanding ROS Topics](https://github.com/pokohroh/ros-portfolio/blob/main/Tutorials%20Completed/6%29%20Understanding%20ROS%20Topics.md)
-7. [Using rqt_conosle and roslaunch](https://github.com/pokohroh/ros-portfolio/blob/main/Tutorials%20Completed/6%29%20Using%20rqt_console%20and%20roslaunch.md)
+7. [Using rqt_conosle and roslaunch](https://github.com/pokohroh/ros-portfolio/blob/main/Tutorials%20Completed/7%29%20Using%20rqt_console%20and%20roslaunch.md)
 8. [Using rosed to edit files](https://github.com/pokohroh/ros-portfolio/blob/main/Tutorials%20Completed/7%29%20Using%20rosed%20to%20edit%20files.md)
 9. [Creating a ROS msg and srv](https://github.com/pokohroh/ros-portfolio/blob/main/Tutorials%20Completed/8%29%20Creating%20a%20ROS%20msg%20and%20srv.md)
 10. [Writing a ROS Publisher](https://github.com/pokohroh/ros-portfolio/blob/main/Tutorials%20Completed/9%29%20Writing%20a%20ROS%20Publisher.md)
