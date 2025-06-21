@@ -1,18 +1,9 @@
 # ROS Tutorial: Understanding Services and Parameters
 
-# Objective
+## Objective
 - To learn about ROS Services (request/reply communication) and ROS Parameters (global configuration variables), and how to interact with them using command-line tools.
 
-# Hardware Required
-- None
-
-# Software Required
-- Ubuntu 18.04
-- ROS Melodic
-- Terminal
-- Properly built and sourced catkin workspace
-
-# Procedure
+## Procedure
 1. Launch the ROS Master and turtlesim
 
 ```bash
