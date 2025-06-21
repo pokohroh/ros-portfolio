@@ -1,5 +1,10 @@
 # ROS Tutorial : Understanding ROS Topics
 
+A **ROS topic** is a named bus over which nodes can send (publish) or receive (subscribe to) messages asynchronously.
+
+Imagine a radio station, the station broadcasts on a frequency (like a publisher). Any radio tuned in to that frequency (a subscriber) hears the message.
+Topics are like the frequencies.
+
 ## Objective
 - To understand what a ROS Topic is as well s using ROS Computational grpahs such as rqt_plot and its commandline tools.
 
