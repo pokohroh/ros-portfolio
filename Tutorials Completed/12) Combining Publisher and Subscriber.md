@@ -1,4 +1,4 @@
-# ROS Tutorial: Combining Publisher and Subscriber.md
+# ROS Tutorial: Combining Publisher and Subscriber
 
 ## Objective
 To familiarise with how to combine both publisher and subscriber into one controller file.
