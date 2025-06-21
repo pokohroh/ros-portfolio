@@ -1,5 +1,16 @@
 # ROS Tutorial: Creating a workspace for catkin
 
+**Catkin workspace** is a specially organized development environment where you build, edit, and manage your ROS packages. It’s essential for compiling and organizing your code when working with RO
+Typical catkin workspace structure
+```bash
+my_catkin_ws/           ← Your workspace folder
+├── src/                ← Where you place your ROS packages
+│   └── my_package/     ← A package you create or clone
+├── build/              ← Auto-generated build files (after build)
+├── devel/              ← Development space (setup files, executables)
+└── install/ (optional)← For installing built packages (advanced)
+```
+
 ## Objective
 To create a workspace for catkin which packages can be built on
 
@@ -39,3 +50,4 @@ source ~/catkin_ws/devel/setup.bash
 echo "source ~/catkin_ws/devel/setup.bash" >> ~/.bashrc
 source ~/.bashrc
 ```
+
