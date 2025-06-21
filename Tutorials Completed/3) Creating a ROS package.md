@@ -1,5 +1,19 @@
 # ROS Tutorial: Creating a ROS Package
 
+A **ROS package** is a directory that contains all the files related to a specific piece of robot functionality. ROS packages are designed to be modular and reusable.
+
+Typical Structure of a ROS Package
+```bash
+my_package/
+├── CMakeLists.txt        # Build instructions
+├── package.xml           # Package metadata (name, version, dependencies)
+├── src/                  # Source code (e.g., Python or C++ nodes)
+├── launch/               # Launch files to start nodes
+├── msg/                  # Custom message definitions (if any)
+├── srv/                  # Custom service definitions (if any)
+├── config/               # Configuration files (YAML, etc.)
+└── scripts/              # Executable Python scripts
+```
 ## Objective
 This tutorial will show how to create a new ROS package using the `catkin` build system.
 
