@@ -1,7 +1,7 @@
 # ROS Tutorial: Running Turtlesim Node
 
 ## Objective
-- To understand what a ROS Node is, how nodes communicate within, and how to view and manage them using ROS command-line tools.
+- To run and explore turtlesim node, which will be used throughout the tutorial 
 
 ## Procedure
 1. Launch the ROS Master
