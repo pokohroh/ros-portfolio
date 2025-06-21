@@ -43,11 +43,11 @@ rostopic list
 
 These topics will be listed
 ```bash
-/rosout<br/>
-/rosout_agg<br/>
-/turtle1/cmd_vel<br/>
-/turtle1/color_sensor<br/>
-/turtle1/pose<br/>
+/rosout
+/rosout_agg
+/turtle1/cmd_vel
+/turtle1/color_sensor
+/turtle1/pose
 ```
 
 We will be using the topic "/turtle1/cmd_vel".
