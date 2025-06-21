@@ -1,5 +1,6 @@
 # ROS Tutorial: Understanding Nodes
 
+A node is a single, executable process that performs computation. In simpler terms, it's like a "mini-program" that does a specific job within a robot’s overall software system.
 ## Objective
 To understand what a **ROS Node** is, how nodes communicate within the ROS computational graph, and how to view and manage them using ROS command-line tools.
 
