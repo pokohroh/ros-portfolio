@@ -17,10 +17,9 @@ You can use these field types in a msg file:
 * Floating-point numbers: float32, float64
 * string
 * time and duration
-* Other message types (msg files)
+* Other message types (msg files):
   * Arrays: variable-length (with [ ]) and fixed-length (like [C], where C is a number)
-
-There is also a special type in ROS: Header, the header contains a timestamp and coordinate frame information that are commonly used in ROS. You will frequently see the first line in a msg file have `Header header`.
+* There is also a special type in ROS: Header, the header contains a timestamp and coordinate frame information that are commonly used in ROS. You will frequently see the first line in a msg file have `Header header`.
 
 ## 2. Using msg
 
@@ -188,7 +187,7 @@ find_package(catkin REQUIRED COMPONENTS
 > (Despite its name, message_generation works for both msg and srv.)
 
 For services, you need to make the same changes in package.xml as you did for messages.
-That means adding the same dependencies — look above to see which ones you need to include and make sure they are not commented out.
+That means adding the same dependencies, look above to see which ones you need to include and make sure they are not commented out.
 
 **Remove # to uncomment the following lines:**
 
@@ -288,9 +287,8 @@ Try this command:
 ```bash
 rosmsg -h
 ```
-You should see a list of different rosmsg subcommands.
+You should see a list of different rosmsg subcommands:
 
-Commands:
 ```bash
   rosmsg show     Show message description
   rosmsg list     List all messages
