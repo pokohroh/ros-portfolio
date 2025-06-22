@@ -246,7 +246,7 @@ int64 sum
 ```
 Here, you can see two services listed. The first one is the service you just created in the `beginner_tutorials` package, and the second one is a built-in service from the `rospy_tutorials` package.
 
-## 6. Common step for msg and srv
+## 6. msg and srv
 
 Unless you have already done this in the previous steps, change in CMakeLists.txt. :
 
@@ -280,7 +280,7 @@ $ cd -
 
 * Similarly, .srv files in the srv folder will be converted into code too. For Python there will be an srv folder next to the msg folder.
 
-## 7. Getting Help
+## 7. ROS Help tools
 It is easy to forget what arguments each command needs. So, most ROS tools have built-in help you can use to check how to use them.
 
 Try this command: 
