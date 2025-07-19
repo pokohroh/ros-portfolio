@@ -6,7 +6,7 @@ We are a group of students learning how to control robots by giving them instruc
 
 ## System Requirement
 - Ubuntu 20.04
-- ROS Noetic installed
+- ROS Melodic installed
 
 ## Tutorials
 This portfolio showcases our ROS competency learnt through tutorials:
