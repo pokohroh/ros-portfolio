@@ -5,7 +5,7 @@ Welcome to our learning portfolio, where we demonstrate our initial competencies
 We are a group of students learning how to control robots by giving them instructions through software. In this case, we used a simulated turtle robot thoughout the tutorial to explore how robots move and respond to commands.
 
 ## System Requirement
-- Ubuntu 20.04
+- Ubuntu version 18.04 (Bionic)
 - ROS Melodic installed
 
 ## Tutorials
